@@ -1,0 +1,8 @@
+#!/bin/sh
+#sum of two values
+echo -n " enter a value one : "
+read a
+echo -n " enter a value two: "
+read b
+c = ` expr $a + $b `
+echo " sum of $a and $b is : $c "
